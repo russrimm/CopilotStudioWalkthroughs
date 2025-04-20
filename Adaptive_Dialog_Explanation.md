@@ -3,7 +3,7 @@
 
 ## What Language is This?
 
-The snippet you provided is written in the **Adaptive Dialog Schema** used in **Microsoft Copilot Studio** (formerly Power Virtual Agents), which is based on the **Bot Framework Composer**.
+The PasswordHelperAgent.dialog is the YAML code for the agent, written in the **Adaptive Dialog Schema** which is used in **Microsoft Copilot Studio**. This schema is based on the **Bot Framework Composer**.
 
 ---
 
