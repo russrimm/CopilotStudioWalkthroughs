@@ -4,12 +4,12 @@
 This document provides step-by-step instructions for creating a Copilot Studio agent that helps users who are locked out of their accounts due to MFA issues (typically after getting a new device) by issuing a Temporary Access Pass after identity verification.
 
 ## Prerequisites
-- Administrative access to Microsoft Entra ID (formerly Azure AD)
+- Access (Global Admin) to create, grant permissions to, and consent to an Entra ID Application (Service Principal) - Application Permissions (UserAuthenticationMethod.ReadWrite.All) to Graph.
 - Access to Microsoft Copilot Studio
 - Access to Power Automate
 - Access to Dataverse
 - Access to Azure Key Vault
-- Access to create, grant permissions to, and consent to an Entra ID Application (Service Principal) - Application Permissions (UserAuthenticationMethod.ReadWrite.All) to Graph.
+
 
 ## Step 1: Create Microsoft Entra App Registration
 
