@@ -39,5 +39,6 @@ The agent operates through a conversational interface that follows a strict veri
 The solution is highly customizable, allowing for:
 - Any number of verification questions to balance security with user experience
 - Optional integration with ticketing systems to automatically create and close support tickets for audit purposes
+- Optional analytics enablement through Azure Application Insights
 - Customization of messages and verification logic to suit organizational policies
 ```
