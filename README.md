@@ -1,6 +1,3 @@
-I'll rewrite and expand the Overview section as requested:
-
-```markdown
 ## Overview
 
 This document provides step-by-step instructions for creating a Microsoft Copilot Studio agent that addresses a critical identity and access management challenge: helping users who are locked out of their accounts due to Multi-Factor Authentication (MFA) issues, particularly after getting a new device. 
