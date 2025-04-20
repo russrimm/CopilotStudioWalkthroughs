@@ -9,6 +9,7 @@ This document provides step-by-step instructions for creating a Copilot Studio a
 - Access to Power Automate
 - Access to Dataverse
 - Access to Azure Key Vault
+- Access to create, grant permissions to, and consent to an Entra ID Application (Service Principal) - Application Permissions (UserAuthenticationMethod.ReadWrite.All) to Graph.
 
 ## Step 1: Create Microsoft Entra App Registration
 
