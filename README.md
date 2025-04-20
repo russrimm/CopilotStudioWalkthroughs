@@ -42,3 +42,4 @@ The solution is highly customizable, allowing for:
 - Optional analytics enablement through Azure Application Insights
 - Customization of messages and verification logic to suit organizational policies
 ```
+# [Installation Instructions](https://github.com/russrimm/CopilotStudioWalkthroughs/blob/main/IssueTAP.md)
