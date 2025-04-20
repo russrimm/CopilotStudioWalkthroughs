@@ -78,12 +78,12 @@ This document provides step-by-step instructions for creating a Copilot Studio a
 ## Step 5: Create a Copilot Studio Agent
 
 1. Navigate to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/)
-2. Click "New" and select "Copilot"
-3. Enter a name for your copilot (e.g., "Password Reset Assistant")
-4. Select your language and click "Create"
-5. In the agent configuration:
+2. Click "New Agent"
+3. Select your language and click "Create"
+4. In the agent configuration:
    - Go to "Settings" > "Security"
    - Set authentication to "None" (as we'll handle authentication within our flows)
+5. Rename your Copilot Studio agent (e.g., "Password Reset Assistant")
 
 ## Step 6: Create a "Reset my Password" Topic
 
