@@ -16,6 +16,8 @@ The Temporary Access Pass helpdesk solution includes an exported, unmanaged solu
 - Creates an auditable trail of access recovery attempts
 
 ### Security Considerations
+As the scenario this solution addresses users who are not able to authenticate, this agent must accept unauthenticated chat requests.  It is important to realize that this means anyone and everyone can chat with the agent. If a user attempts to brute force answers, the agent will end the conversation with the user. This does not prevent the user from initiating another chat session repeatedly, so it is crucial to set up monitoring to alert and potentially even auto-blacklist any IP addresses which are repeatedly invoking the agent and providing incorrect answers in a short period of time. 
+
 The solution incorporates several critical security measures:
 
 1. **User Verification**: Before issuing a Temporary Access Pass, the agent conducts a thorough identity verification process using information that only the legitimate user should know. This multi-question approach significantly reduces the risk of unauthorized access.
