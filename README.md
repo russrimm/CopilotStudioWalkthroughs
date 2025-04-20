@@ -41,5 +41,8 @@ The solution is highly customizable, allowing for:
 - Optional integration with ticketing systems to automatically create and close support tickets for audit purposes
 - Optional analytics enablement through Azure Application Insights
 - Customization of messages and verification logic to suit organizational policies
+
+### Installation Instructions 
+(https://github.com/russrimm/CopilotStudioWalkthroughs/blob/main/IssueTAP.md)
 ```
-Installation Instructions https://github.com/russrimm/CopilotStudioWalkthroughs/blob/main/IssueTAP.md
+
