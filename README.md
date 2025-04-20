@@ -1,6 +1,6 @@
 ## Overview
 
-This document provides step-by-step instructions for creating a Microsoft Copilot Studio agent that addresses a critical identity and access management challenge: helping users who are locked out of their accounts due to Multi-Factor Authentication (MFA) issues, particularly after getting a new device. 
+The Temporary Access Pass helpdesk solution includes an exported, unmanaged solution, and step-by-step instructions for creating a Microsoft Copilot Studio agent. The agent addresses a critical identity and access management challenge: helping users who are locked out of their accounts due to Multi-Factor Authentication (MFA) issues, particularly after getting a new device. 
 
 ### Use Cases
 - Employees who have replaced their mobile device and cannot access their authenticator app
