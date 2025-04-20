@@ -22,7 +22,7 @@ The solution incorporates several critical security measures:
 
 1. **User Verification**: Before issuing a Temporary Access Pass, the agent conducts a thorough identity verification process using information that only the legitimate user should know. This multi-question approach significantly reduces the risk of unauthorized access.
 
-2. **Limited Lifetime**: The Temporary Access Pass is configured with a short lifetime (60 minutes) and set as single-use only, minimizing the window of opportunity for potential misuse. It is important to note that the minimum Temporary Access Pass lifetime is 60 minutes.
+2. **Limited Lifetime**: The Temporary Access Pass is configured with a short lifetime (60 minutes) and set as single-use only, minimizing the window of opportunity for potential misuse. It is important to note that the minimum Temporary Access Pass lifetime is 10 minutes and it is recommended to use the minimum value for security reasons. The TAP issued is also set to only allow a single use.
 
 3. **Secure Credential Storage**: As a security best practice, the solution stores client IDs, tenant IDs, and secret keys in Azure Key Vault rather than embedding them directly in the flows. For proof-of-concept environments, these can optionally be stored in environment variables, though this is not recommended for production deployments.
 
