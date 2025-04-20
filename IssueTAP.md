@@ -82,8 +82,9 @@ This document provides step-by-step instructions for creating a Copilot Studio a
 3. Select your language and click "Create"
 4. In the agent configuration:
    - Go to "Settings" > "Security"
-   - Set authentication to "None" (as we'll handle authentication within our flows)
-5. Rename your Copilot Studio agent (e.g., "Password Reset Assistant")
+   - Set authentication to "No authentication" (as we'll handle authentication within our flows)
+5. Under "Knowledge" disable "Allow the agent to use its own general knowledge."
+5. Rename your Copilot Studio agent (e.g., "Password Reset Assistant") and add a custom icon if desired.
 
 ## Step 6: Create a "Reset my Password" Topic
 
